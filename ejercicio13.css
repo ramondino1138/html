@@ -1,0 +1,81 @@
+/*
+Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo
+*/
+
+/* Ejercicio 1: Centrar el texto en un span */
+
+/* Arrancaremos este ejercicio por vos: */
+#ejercicioUno {
+    display: block;
+    text-align: center; }
+
+/* Ejercicio 2: Posicionar el header */
+
+/* Acá va tu código */
+#ejercicioDos {
+    display: none; }
+
+/* Ejercicio 3: */
+
+/* Acá va tu código */
+#ejercicioTres {
+    position: absolute;
+    top: 100px;    
+    left: 200px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover; }
+
+/* Ejercicio 4: */
+
+/* Acá va tu código */
+#ejercicioCuatro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 125px;
+    background-color: #3574d2;
+    color: white;
+    display: flex;
+    align-items: left;
+    justify-content: left; }
+
+/* Ejercicio 5: */
+
+/* Acá va tu código */
+#ejercicioCinco {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+    background-color: #3574d2; 
+    color: white; 
+    display: flex;
+    flex-direction: row-reverse; }
+ 
+
+/* Ejercicio 7. */
+#elementoUno {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center; }
+
+#elementoDos {
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center; }
+
+#elementoTres {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    align-items: center; }
+
+#elementoCuatro {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    align-items: center; }

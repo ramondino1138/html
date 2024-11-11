@@ -1,0 +1,58 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c7c7c7;
+    color: #2a2a2a;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #2a2a2a;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #2a2a2a;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.seccion1 {
+    background-color: #4c9c4e;
+}
+
+.seccion2 {
+    background-color: #2e73ac;
+}
+
+.piedepagina {
+    background-color: #000000;
+    color: #dfdfdf;
+    min-height: 50px;
+    text-align: center;
+}
+
+.espaciado {
+    height: 70px;
+}
